@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #1E1E1E;
+}
+.navbar{
+    padding: 25px;
+}
+
+.left_container{
+    display: flex;
+    
+}
+.nav_stuffs{
+    display: flex;
+    color: #909090;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+.logo{
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_container{
+    display: flex;
+}
+#field{
+    border: solid 1px #909090;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sign_btn{
+    font-size: 14px;
+    border:1px solid #6DE754;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    border-radius:10px;
+}
+
+.get_btn{
+    font-size: 14px;
+   background: #6DE754;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    border-radius:10px;
+    color: #1E1E1E;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.menu{
+    display: none;
+}
+.hero{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+
+    
+}
+.overall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.features{
+margin-top: 120px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 120px;
+text-align: center;
+}
+.tuna_fish{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.input_field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: ;
+}
+.hero_two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btn_input{
+    position:absolute;
+    font-size: 14px;
+    background: #6DE754;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-left: 25px;
+     padding-right: 25px;
+     color: white;
+     border-radius:10px;
+     color: #1E1E1E;
+     font-weight: 500;
+     
+}
+.hero_box_section{
+    display: flex;
+
+    gap: 20px;
+    margin-top: 50px;
+}
+.overall_box_section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.box{
+    background-color: #171916;
+    height:250px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 30px;
+   
+}
+.grafti_section_one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.footer_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+.grafti_section_two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+.grafti_text_section{
+    align-items: center;
+    justify-content: center;
+}
+.hero_box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.graft_img_one_mobile{
+    display: none;
+}
+.free_btn{
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+@media(max-width: 600px){
+    .nav_stuffs{
+        display: none;
+    }
+    .hero_two_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .hero_two{
+        margin-top: 120px;
+    }
+    .hero_two_img{
+        display: none;
+
+    }
+    .btns{
+        display: none;
+    }
+    .grafti_text_section{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .navbar{
+        padding: 20px;
+    }
+    .grafti_section_two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 120px;
+    }
+    .menu{
+        display: block;
+        font-size: 23px;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero_box_section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+}
+.box{
+    background-color: #171916;
+    height:250px;
+    width: 320px;
+    border-radius: 10px;
+    padding: 20px;
+   
+}
+.overall_box_section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.grafti_section_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.graft_img_one_mobile{
+    display: block;
+}
+.graft_img_one{
+    display: none;
+}
+}
+.box_big{
+    display: none;
+}
+@media(width:1920px){
+.box_big{
+    display: block;
+}
+.overall_box_section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 60px;
+    
+}
+}
+@media(max-width:1024px){
+    .menu{
+        display: block;
+        font-size: 23px;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav_stuffs{
+        display: none;
+    }
+    .btns{
+        display: none;
+    }
+    #win_dream_text_tablet{
+        font-size: 36px;
+    }
+    
+#btn_input_tablet{
+    right: 5%;
+}
+.hero_box_section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+}
+.box{
+    background-color: #171916;
+    height:230px;
+    width: 380px;
+    border-radius: 10px;
+    padding: 20px;
+   
+}
+}
+
+@media (max-width: 1536px) {
+    
+}
